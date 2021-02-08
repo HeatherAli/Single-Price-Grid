@@ -1,0 +1,109 @@
+.main{
+    display: grid;
+    grid-template-columns:400px 400px ;
+    grid-template-rows: 300px 300px;
+    justify-content: center;
+    
+    
+}
+body{
+     
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(220, 5%, 89%);
+    
+    
+}
+.box1{
+    background-color:#FEFEFC;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+}
+.box2{
+    background-color:#28abb9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border-bottom-left-radius: 20px;
+}
+.box3{
+    background-color:#6ec4b2 ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-bottom-right-radius: 20px;
+}
+.header1{
+    color:hsl(179, 80%, 47%);
+    margin-left: 40px;
+    font-weight: 700px;
+    margin-top: 50px;
+}
+.header2{
+    color: oldlace;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.header3{
+    color: oldlace;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.money-back{
+    color: #DCF050;
+    margin-left: 40px;
+}
+.par1{
+    color: hsl(218, 22%, 67%);
+    font-size: 18px;
+    line-height: 1.5; 
+    margin-left: 40px;
+    font-weight: 400px;
+}
+.par2{
+    color: hsl(220, 5%, 89%);
+    margin-left: 40px;
+    font-weight: 400;
+}
+.par3{
+    color: hsl(220, 5%, 89%);
+    margin-left: 40px;
+    font-weight: 100;
+}
+.dollar-sign{
+    color: oldlace;
+    font-size: 30px;
+    font-weight: 700;
+}
+.list-items{
+    color: hsl(220, 5%, 89%); 
+    margin-left: 10px;
+    list-style: none;
+    font-weight: 400;
+}
+.BUTTON_RBW {
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    height: 40px;
+    line-height: 50px;
+    color: #eff1dc;
+    font-family:'Karla', sans-serif;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    background-color: rgba(178, 211, 59, 0.98);
+    border: solid rgba(167, 235, 47, 0.92) 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+ }
+ 
+
+
